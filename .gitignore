@@ -5,6 +5,26 @@ __pycache__/
 
 # C extensions
 *.so
+# Streamlit 캐시 디렉토리
+.streamlit/
+
+# 분석 결과 캐시 (feather, csv 등)
+*.feather
+*.csv
+
+# 분석 결과 디렉토리 (커밋 안 할 경우)
+cache/
+data/
+
+# Google Colab 체크포인트
+.ipynb_checkpoints/
+
+# Jupyter 관련 숨김 파일
+*.ipynb
+
+# OS/편집기 생성 파일
+.DS_Store
+.env
 
 # Distribution / packaging
 .Python
